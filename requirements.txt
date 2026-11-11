@@ -1,0 +1,11 @@
+# Core (code CAD + checks + previews)
+build123d>=0.9
+trimesh>=4.0
+numpy
+matplotlib
+# Optional
+rtree               # inspect_mesh.py --thickness
+fast-simplification # faster previews of large meshes
+lxml                # 3MF read/write through trimesh
+networkx            # 3MF read/write through trimesh
+# bpy               # Blender as a Python module (Python version must match the wheel)

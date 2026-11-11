@@ -1,0 +1,31 @@
+{
+  "name": "3d-modeling",
+  "version": "0.2.0",
+  "description": "Create, validate and export 3D models: parametric code CAD (build123d), Blender scripting, Autodesk Fusion and AI mesh generation, with headless previews and mesh checks.",
+  "author": {
+    "name": "uulab",
+    "url": "https://github.com/uulab-official"
+  },
+  "homepage": "https://github.com/uulab-official/3d-modeling-skills",
+  "repository": "https://github.com/uulab-official/3d-modeling-skills",
+  "license": "MIT",
+  "keywords": ["3d", "cad", "build123d", "blender", "fusion", "stl", "step", "3d-printing"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "3D Modeling",
+    "shortDescription": "Model, check and export 3D objects",
+    "longDescription": "Turns a description, sketch or reference image into checked STEP, STL, 3MF, OBJ, GLB or .blend files using code CAD, Blender, Fusion or AI mesh generation.",
+    "developerName": "uulab",
+    "category": "Design",
+    "capabilities": ["Interactive", "Write"],
+    "websiteURL": "https://github.com/uulab-official/3d-modeling-skills",
+    "defaultPrompt": [
+      "Use $3d-modeling to design a wall mount for a 60 x 40 mm sensor with two M3 screw holes.",
+      "Use $3d-modeling to make a name keychain that says Andrea.",
+      "Use $3d-modeling to check this STL and render previews from four sides."
+    ],
+    "brandColor": "#5b8cd9",
+    "composerIcon": "./assets/icon.svg",
+    "logo": "./assets/icon.svg"
+  }
+}

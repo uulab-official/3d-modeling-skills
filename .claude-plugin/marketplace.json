@@ -1,0 +1,16 @@
+{
+  "name": "3d-modeling-skills",
+  "owner": {
+    "name": "uulab"
+  },
+  "metadata": {
+    "description": "Skills for 3D modeling with Claude"
+  },
+  "plugins": [
+    {
+      "name": "3d-modeling",
+      "source": "./",
+      "description": "Model 3D objects from a description or image and deliver checked STEP/STL/3MF/GLB/.blend files."
+    }
+  ]
+}

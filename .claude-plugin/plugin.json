@@ -1,0 +1,23 @@
+{
+  "name": "3d-modeling",
+  "version": "0.2.0",
+  "description": "Create, validate and export 3D models with Claude: parametric code CAD (build123d), Blender scripting, Autodesk Fusion and AI mesh generation, with headless previews and mesh checks.",
+  "author": {
+    "name": "uulab",
+    "url": "https://github.com/uulab-official"
+  },
+  "homepage": "https://github.com/uulab-official/3d-modeling-skills",
+  "repository": "https://github.com/uulab-official/3d-modeling-skills",
+  "license": "MIT",
+  "keywords": [
+    "3d",
+    "cad",
+    "build123d",
+    "blender",
+    "fusion",
+    "stl",
+    "step",
+    "3d-printing",
+    "modeling"
+  ]
+}
